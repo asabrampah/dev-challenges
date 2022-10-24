@@ -1,0 +1,46 @@
+.picture{
+    max-width: 100%;
+    float: left;
+    margin-top: 3em;
+}
+.page-text{
+    width: 50%;
+    float: 50%;
+    margin-top: 8em;
+    font-size: large;
+    
+}
+.button{
+    background-color: black;
+    color: white;
+    padding: 25px;
+    width: 250px;
+    margin-top: 5em;
+    font-family: 'Courier New', Courier, monospace;
+}
+h2{
+    font-family: monospace;
+}
+h1{
+    font-family: "Space Mono", monospace;
+}
+p{
+    font-family: monospace;
+    color: grey;    
+    margin-top: 2em;
+    font-size: larger;
+}
+.page-content{
+    display: flex;
+    flex-direction: row;
+}
+
+@media screen and (max-width: 600px) {
+    .page-content{
+        display: block;       
+ }
+ .page-text{
+    margin-left: 1em;
+ }
+}
+ 
